@@ -1,0 +1,7 @@
+CREATE DATABASE immeuble;
+
+CREATE TABLE immeuble.locataire(
+id INT NOT NULL PRIMARY KEY,
+nom VARCHAR(45) NOT NULL,
+phone VARCHAR(20)
+); 
